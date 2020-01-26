@@ -8,7 +8,7 @@ const app = express()
 
 app.get('/', (req, res) => {
 
-    res.send("hello world")
+    res.send(" This is Dockerized!!  ")
 });
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
